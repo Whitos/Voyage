@@ -17,18 +17,18 @@ public class Voyage {
 		//FIN TEST 1 */
 	
 		// TEST 2
-		// System.out.println("Test partie 2 : ");
-		// System.out.println("----------------");
+		System.out.println("Test partie 2 : ");
+		System.out.println("----------------");
 
-		// //Transport transp1 = new Transport("Trajet en car ", 50.0);
-		// System.out.println(transp1.toString());
+		//Transport transp1 = new Transport("Trajet en car ", 50.0);
+		//System.out.println(transp1.toString());
 
-		// //Transport transp2 = new Transport("Croisiere", 1300.0);
-		// System.out.println(transp2.toString());
+		//Transport transp2 = new Transport("Croisiere", 1300.0);
+		//System.out.println(transp2.toString());
 
-		// // Sejour sejour1 = new Sejour("Camping les flots bleus", 20.0, 10, 30.0);
-		// // System.out.println(sejour1.toString());
-		// // System.out.println();
+		Sejour sejour1 = new Sejour("Camping les flots bleus", 20.0, 10, 30.0);
+		System.out.println(sejour1.toString());
+		System.out.println();
 
                
 		// //FIN TEST 2 */

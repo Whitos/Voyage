@@ -20,7 +20,7 @@ public class OptionVoyage {
 
     @Override
     public String toString() {
-        return  nom + "-> " + prix + " euros";
+        return  nom + "-> " + getPrix() + " euros";
     }
 
     
