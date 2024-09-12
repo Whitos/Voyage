@@ -1,4 +1,4 @@
-public class OptionVoyage {
+public abstract class OptionVoyage {
     private String nom;
     private double prix;
     private boolean tarifReduit;
@@ -13,6 +13,7 @@ public class OptionVoyage {
     public OptionVoyage(String nom, double prix) {
         this.nom = nom;
         this.prix = prix;
+        this.tarifReduit = false;
     }
 
     public String getNom() {
@@ -25,7 +26,7 @@ public class OptionVoyage {
 
     @Override
     public String toString() {
-        return  nom + "-> " + getPrix() + " euros";
+        return  getNom() + "-> " + prix + " euros";
     }
 
     

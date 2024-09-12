@@ -1,8 +1,8 @@
 public class Transport extends OptionVoyage {
     private boolean trajetLong;
 
-    public static double TARIF_LONG = 1500;
-    public static double TARIF_BASE = 200;
+    static public final int TARIF_LONG = 1500;
+    static public final int TARIF_BASE = 200;
 
     public Transport(String nom, double prix, boolean trajetLong) {
         super(nom, prix);
@@ -12,6 +12,10 @@ public class Transport extends OptionVoyage {
     public Transport(String nom, double prix) {
         super(nom, prix);
         this.trajetLong = false;
+    }
+
+    public boolean isTrajetLong() {
+        return trajetLong;
     }
 
     @Override
